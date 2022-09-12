@@ -1,0 +1,224 @@
+body {
+    color: white;
+    background-image: url("photos/bg1.jpeg");
+
+
+}
+h3 {
+    color: rgba(4, 8, 59, 0.795);
+    display: block;
+    margin-right: auto;
+    width: 50%;
+    background-position: center;
+    background-color: silver;
+    border: rgb(26, 39, 44);
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+
+
+    letter-spacing: 0px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all .5s ease;
+}
+
+h3:hover {
+
+
+    letter-spacing: 5px;
+    color: black;
+    box-shadow: 5px 5px 10px 10px rgb(0, 119, 255);
+    
+
+
+}
+
+p {
+    font-size: 16px;
+
+
+}
+
+.specify {
+    inline-size: auto;
+    font-size: 16px;
+}
+
+.greet {
+    transform: scale(1);
+    font-family: lobster two, cursive;
+}
+
+h1,
+p ,.neato-header{
+    letter-spacing: 0px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all .5s ease;
+
+}
+
+.greet:hover {
+
+    letter-spacing: 2px;
+}
+.specify
+{
+    text-size-adjust: scale(2);
+    font-size:x-large;
+}
+
+.specify:hover {
+    letter-spacing: 2px;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    background-color: silver;
+    padding: 15px;
+
+    align-content: center;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.icon:hover {
+    background-color: gray;
+    border-width: 2px;
+    transform: scale(0.9);
+
+}
+
+.icon2 {
+    display: inline;
+}
+
+.icon2 :hover {
+    letter-spacing: 0px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all .5s ease;
+
+
+
+    transform: scale(1.5);
+
+}
+
+section .navbar 
+{
+   position: fixed;
+   top: 0;
+}
+
+.button 
+{
+    color:cornsilk;
+    box-sizing: content-box;
+    box-shadow: blue;
+    background-color: rgb(185, 178, 178);
+    padding :10px;
+}
+
+.button:hover
+{
+    transform: scale(1.4);
+    cursor: pointer;
+
+}
+
+.c,.cpp,.html,.css
+{
+    border: #f0ffff;
+    border-radius: 10px;
+    border-width: 10px;
+
+}
+.c,.cpp,.html,.ss :hover
+{
+    transform: scale(1.1);
+    padding-left: 10px;
+    border: black;
+
+
+}
+
+.Education :hover
+
+{
+    display: block;
+    transform: scale3d(1.1);
+}
+
+section
+{
+    font-size: x-large;
+}
+
+body {
+	
+	background-image: url(photos/bg1.jpeg);
+	--img-url: url(photos/let.jpeg);
+}
+
+.headshot {
+	flex-shrink: 0;
+	margin: 20px;
+	height: calc(300px + 6vw);
+	width: calc(300px + 6vw);
+	border: calc(8px + 0.2vw) solid transparent;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.headshot-1:hover
+{
+    border-radius: 50%;
+    border: black;
+    border-style: ridge;
+    opacity: 0.95;
+
+    letter-spacing: 0px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all .5s ease;
+
+    box-shadow: 10px 10px 30px 20px rgb(0, 119, 255);
+
+}
+
+.headshot-1 {
+	border-radius: 30%;
+	background-image: var(--img-url), linear-gradient(#f9f047, #0fd850);
+}
+
+
+
+
+
+.neato-header 
+{
+    background-image: url(photos/headbg.jpeg);
+    
+    background-image: url("img_girl.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
